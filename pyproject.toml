@@ -1,0 +1,10 @@
+[project]
+name = "incident-response-agent"
+version = "0.1.0"
+description = "Evidence-grounded production incident investigation agent"
+requires-python = ">=3.11"
+dependencies = ["fastapi", "uvicorn", "httpx"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
